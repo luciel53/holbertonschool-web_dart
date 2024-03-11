@@ -4,6 +4,6 @@ int fact(int f) {
 	} else if (f <= 0) {
 		return 1;
 	} else {
-		return (f * f) * f;
+		return (f * fact(f - 1));
 	}
 }
