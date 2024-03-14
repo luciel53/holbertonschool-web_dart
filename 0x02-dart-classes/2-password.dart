@@ -1,5 +1,5 @@
 class Password {
-	late String password;
+	late String password; // promise to initalize the password later
 
 	bool isValid() {
 		return (password.length >= 8) &&
